@@ -1,5 +1,7 @@
 class Customer
 
+attr_accessor :name, :age
+
 @@all = []
 
   def initialize(name, age)
@@ -10,5 +12,8 @@ class Customer
 
   def self.all
     @@all
+  end
+
+  def new
   end
 end
